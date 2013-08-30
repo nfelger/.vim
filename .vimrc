@@ -10,12 +10,18 @@ set laststatus=2 " Always show status line.
 
 set directory=~/tmp " Keep swp files in a single directory.
 
+" MacVim settings.
 set guifont=Menlo:h14  " Standard MacVim font, but taller.
 if has('gui_running')
+  " Colorscheme.
   set background=dark
   colorscheme solarized
   let g:solarized_visibility = "high"
   let g:solarized_contrast = "high"
+
+  " Make CMD-S enter normal mode after saving.
+  iunmenu File.Save
+  imenu <silent> File.Save <Esc>:if expand("%") == ""<Bar>browse confirm w<Bar>else<Bar>confirm w<Bar>endif<CR>
 endif
 
 " Sytastic Settings
