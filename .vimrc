@@ -18,3 +18,7 @@ endif
 
 " Sytastic Settings
 let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E126,E121"
+
+" Python-mode settings
+let g:pymode_lint = 1  " Let Syntastic do the linting.
+let g:pymode_folding = 0  " Don't automatically fold functions and classes.
