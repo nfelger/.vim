@@ -12,8 +12,10 @@ set directory=~/tmp " Keep swp files in a single directory.
 
 set guifont=Menlo:h14  " Standard MacVim font, but taller.
 if has('gui_running')
-  set background=light
+  set background=dark
   colorscheme solarized
+  let g:solarized_visibility = "high"
+  let g:solarized_contrast = "high"
 endif
 
 " Sytastic Settings
