@@ -10,6 +10,8 @@ set laststatus=2 " Always show status line.
 
 set directory=~/tmp " Keep swp files in a single directory.
 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc  " Ignore these files.
+
 " MacVim settings.
 set guifont=Menlo:h14  " Standard MacVim font, but taller.
 if has('gui_running')
