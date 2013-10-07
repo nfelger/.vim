@@ -32,3 +32,7 @@ let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E
 " Python-mode settings
 let g:pymode_lint = 0  " Let Syntastic do the linting.
 let g:pymode_folding = 0  " Don't automatically fold functions and classes.
+let g:pymode_rope = 0  " Disable rope for now, maybe that's what's causing all the hangs.
+
+" CTRLP settings
+let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs)$'}
