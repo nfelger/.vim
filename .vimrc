@@ -35,4 +35,4 @@ let g:pymode_folding = 0  " Don't automatically fold functions and classes.
 let g:pymode_rope = 0  " Disable rope for now, maybe that's what's causing all the hangs.
 
 " CTRLP settings
-let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs)$'}
+let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs|node_modules)$'}
