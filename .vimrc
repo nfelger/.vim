@@ -27,7 +27,7 @@ if has('gui_running')
 endif
 
 " Sytastic Settings
-let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E126,E121"
+let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E126,E121,E712"
 
 " Python-mode settings
 let g:pymode_lint = 0  " Let Syntastic do the linting.
