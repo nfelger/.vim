@@ -40,3 +40,6 @@ let g:pymode_rope = 0  " Disable rope for now, maybe that's what's causing all t
 
 " CTRLP settings
 let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs|node_modules)$'}
+
+" Ag settings
+let g:agprg="ag --column --smart-case"
