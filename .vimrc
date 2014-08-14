@@ -42,3 +42,15 @@ let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs|node_modules)$'
 
 " Ag settings
 let g:agprg="ag --column --smart-case"
+
+
+"
+" Key mappings
+"
+
+" Keybinding to toggle treating option as meta
+:map <D-j> :set invmmta<CR>
+
+" Quickfix navigation
+nnoremap <A-n> :cnext<CR>
+nnoremap <A-N> :cprevious<CR>
