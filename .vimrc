@@ -18,7 +18,7 @@ endif
 set guifont=Menlo:h16  " Standard MacVim font, but taller.
 if has('gui_running')
   " Colorscheme.
-  set background=dark
+  set background=light
   colorscheme solarized
   let g:solarized_visibility = "high"
   let g:solarized_contrast = "high"
