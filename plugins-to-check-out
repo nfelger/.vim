@@ -1,8 +1,6 @@
-https://github.com/tpope/vim-surround
-https://github.com/tpope/vim-markdown
-https://github.com/tpope/vim-tbone
-https://github.com/tpope/vim-cucumber
-https://github.com/tpope/vim-bundler
-https://github.com/tpope/vim-rsi
-https://github.com/tpope/vim-eunuch
-https://github.com/kien/ctrlp.vim
+http://vimawesome.com/plugin/easymotion
+http://vimawesome.com/plugin/supertab
+http://vimawesome.com/plugin/tabular
+http://vimawesome.com/plugin/unite-vim-back-to-december
+http://vimawesome.com/plugin/minibufexpl-vim
+http://vimawesome.com/plugin/python-pydoc-vim
