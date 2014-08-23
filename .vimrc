@@ -49,7 +49,7 @@ let g:agprg="ag --column --smart-case"
 "
 
 " Keybinding to toggle treating option as meta
-:map <D-j> :set invmmta<CR>
+:noremap <D-j> :set invmmta<CR>
 
 " Quickfix navigation
 nnoremap <A-n> :cnext<CR>
