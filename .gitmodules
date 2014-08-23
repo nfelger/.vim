@@ -37,3 +37,6 @@
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = https://github.com/rking/ag.vim
+[submodule "bundle/vim-ragel"]
+	path = bundle/vim-ragel
+	url = https://github.com/cfobel/vim-ragel
