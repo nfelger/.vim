@@ -77,7 +77,7 @@ set directory=~/tmp          " Keep swp files in a single directory.
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc  " Ignore these files.
 
 set list                     " Show whitespace
-set listchars=tab:▸\ ,eol:⏎,trail:-,extends:▶︎,precedes:◀︎,nbsp:+
+set listchars=tab:▸\ ,eol:⏎,trail:\ ,extends:▶︎,precedes:◀︎,nbsp:+
 let g:solarized_visibility="low"
 highlight SpecialKey guibg=red
 
