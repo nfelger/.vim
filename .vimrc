@@ -51,15 +51,6 @@ call vundle#end()            " required by Vundle
 
 filetype plugin indent on    " required by Vundle
 
-
-set incsearch                " Start searching without pressing return.
-set ignorecase               " Ignore case in searches.
-set smartcase                " ...except when the search specifies it.
-set number                   " Enable line numbers.
-set laststatus=2             " Always show status line.
-set directory=~/tmp          " Keep swp files in a single directory.
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc  " Ignore these files.
-
 " MacVim settings.
 set guifont=Menlo\ for\ Powerline:h16        " Standard MacVim font was Menlo:h14.
 if has('gui_running')
@@ -76,6 +67,20 @@ if exists("&macmeta")
 endif
 " Toggle treating option as meta
 :noremap <D-j> :set invmmta<CR>
+
+set incsearch                " Start searching without pressing return.
+set ignorecase               " Ignore case in searches.
+set smartcase                " ...except when the search specifies it.
+set number                   " Enable line numbers.
+set laststatus=2             " Always show status line.
+set directory=~/tmp          " Keep swp files in a single directory.
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc  " Ignore these files.
+
+set list                     " Show whitespace
+set listchars=tab:▸\ ,eol:⏎,trail:-,extends:▶︎,precedes:◀︎,nbsp:+
+let g:solarized_visibility="low"
+highlight SpecialKey guibg=red
+
 
 " Sytastic Settings
 let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E126,E121,E711,E712"
