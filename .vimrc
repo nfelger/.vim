@@ -60,12 +60,18 @@ if has('gui_running')
   " Make CMD-S enter normal mode after saving.
   iunmenu File.Save
   imenu <silent> File.Save <Esc>:if expand("%") == ""<Bar>browse confirm w<Bar>else<Bar>confirm w<Bar>endif<CR>
+
+  " Airline
+  let g:airline_powerline_fonts = 1
+
+  " Treat option as meta instead of inserting non-ASCII chars.
+  if exists("&macmeta")
+    set macmeta
+    " Toggle treating option as meta
+    :noremap <D-j> :set invmmta<CR>
+  endif
 endif
-if exists("&macmeta")
-  set macmeta                " Treat option as meta instead of inserting non-ASCII chars.
-endif
-" Toggle treating option as meta
-:noremap <D-j> :set invmmta<CR>
+
 
 set incsearch                " Start searching without pressing return.
 set ignorecase               " Ignore case in searches.
@@ -97,6 +103,3 @@ let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs|node_modules)$'
 
 " Ag settings
 let g:agprg="ag --column --smart-case"
-
-" Airline
-let g:airline_powerline_fonts = 1
