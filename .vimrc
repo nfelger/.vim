@@ -85,6 +85,7 @@ highlight SpecialKey guibg=red
 " Sytastic Settings
 let g:syntastic_python_flake8_args = "--max-line-length=120 --ignore=E127,E128,E126,E121,E711,E712"
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+let g:syntastic_always_populate_loc_list=1
 
 " Python-mode settings
 let g:pymode_lint = 0        " Let Syntastic do the linting.
