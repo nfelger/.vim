@@ -77,6 +77,7 @@ endif
 set incsearch                " Start searching without pressing return.
 set ignorecase               " Ignore case in searches.
 set smartcase                " ...except when the search specifies it.
+set nohlsearch               " Don't highlight search matches.
 set number                   " Enable line numbers.
 set laststatus=2             " Always show status line.
 set directory=~/tmp          " Keep swp files in a single directory.
