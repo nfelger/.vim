@@ -45,6 +45,7 @@ Plugin 'tomtom/tcomment_vim'
 
 " Other
 Plugin 'tpope/vim-sensible'
+Plugin 'davidoc/taskpaper.vim'
 
 call vundle#end()            " required by Vundle
 
