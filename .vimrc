@@ -26,7 +26,6 @@ Plugin 'leshill/vim-json'
 
 " Interface
 Plugin 'taglist.vim'
-Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
