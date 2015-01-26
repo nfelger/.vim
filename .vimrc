@@ -98,8 +98,6 @@ let g:syntastic_always_populate_loc_list=1
 
 " Python-mode settings
 let g:pymode_lint = 0        " Let Syntastic do the linting.
-let g:pymode_folding = 0     " Don't automatically fold functions and classes.
-let g:pymode_rope = 0        " Disable rope for now, maybe that's what's causing all the hangs.
 let g:pymode_options_max_line_length = 100
 
 " CTRLP settings
