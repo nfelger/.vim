@@ -98,6 +98,7 @@ let g:syntastic_always_populate_loc_list=1
 " Python-mode settings
 let g:pymode_lint = 0        " Let Syntastic do the linting.
 let g:pymode_options_max_line_length = 100
+let g:pymode_folding = 0
 
 " CTRLP settings
 let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.(git|hg|svn)|eggs|node_modules)$'}
