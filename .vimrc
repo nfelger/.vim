@@ -16,6 +16,7 @@ Plugin 'flazz/vim-colorschemes'
 " Language
 Plugin 'tpope/vim-surround'
 Plugin 'klen/python-mode'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'nginx.vim'
 Plugin 'jneen/ragel.vim'
 Plugin 'pangloss/vim-javascript'
@@ -45,6 +46,7 @@ Plugin 'tomtom/tcomment_vim'
 " Other
 Plugin 'tpope/vim-sensible'
 Plugin 'davidoc/taskpaper.vim'
+Plugin 'ryanss/vim-hackernews'
 
 call vundle#end()            " required by Vundle
 
@@ -52,6 +54,7 @@ filetype plugin indent on    " required by Vundle
 
 " MacVim settings.
 set guifont=Menlo\ for\ Powerline:h16        " Standard MacVim font was Menlo:h14.
+let g:Powerline_symbols = 'fancy'
 if has('gui_running')
   " Colorscheme.
   set background=light
@@ -71,7 +74,6 @@ if has('gui_running')
     :noremap <D-j> :set invmmta<CR>
   endif
 endif
-
 
 set incsearch                " Start searching without pressing return.
 set ignorecase               " Ignore case in searches.
@@ -97,6 +99,7 @@ let g:syntastic_always_populate_loc_list=1
 
 " Python-mode settings
 let g:pymode_lint = 0        " Let Syntastic do the linting.
+let g:pymode_rope = 0        " Use jedi-vim for autocompletion.
 let g:pymode_options_max_line_length = 100
 let g:pymode_folding = 0
 
