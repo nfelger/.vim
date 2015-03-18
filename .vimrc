@@ -19,11 +19,12 @@ Plugin 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'nginx.vim'
 Plugin 'jneen/ragel.vim'
-Plugin 'pangloss/vim-javascript'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'leshill/vim-json'
+Plugin 'chase/vim-ansible-yaml'
+Plugin 'pangloss/vim-javascript'
 
 " Interface
 Plugin 'taglist.vim'
@@ -45,6 +46,7 @@ Plugin 'tomtom/tcomment_vim'
 
 " Other
 Plugin 'tpope/vim-sensible'
+Plugin 'editorconfig/editorconfig-vim'
 Plugin 'davidoc/taskpaper.vim'
 Plugin 'ryanss/vim-hackernews'
 
