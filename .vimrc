@@ -117,3 +117,8 @@ nmap <silent> [g :tabprevious<CR>
 nmap <silent> ]g :tabnext<CR>
 nmap <silent> [G :tabrewind<CR>
 nmap <silent> ]G :tablast<CR>
+
+" editorconfig: use externally installed editorconfig command (plugin seems
+" not to work otherwise)
+let g:EditorConfig_core_mode = 'external_command'
+let g:EditorConfig_verbose=1
